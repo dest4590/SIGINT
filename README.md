@@ -57,10 +57,14 @@ crate-type = ["cdylib", "rlib"]
 And then we can build the .so library using cargo-ndk:
 
 ```bash
+cargo install cargo-ndk
+```
+
+```bash
 cargo ndk -t aarch64-linux-android build --release
 ```
 
-This will generate the .so file in the `target/aarch64-linux-android/release` folder, which can be included in the Android project  
+This will generate the .so file in the `target/aarch64-linux-android/release` folder, which can be included in the Android project
 
 I also using script to automatically put built .so file into the Android project, check [build_lib.bat](rust/build_lib.bat)
 
