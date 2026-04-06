@@ -16,13 +16,13 @@ use tokio::time::{self, Duration};
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
-    #[arg(short, long, default_value = "http://localhost:8000")]
+    #[arg(short = 'u', long, default_value = "http://localhost:8000")]
     sync_url: Option<String>,
 
     #[arg(short, long, default_value = "your-secret-key")]
     api_key: Option<String>,
 
-    #[arg(short, long, default_value_t = 60)]
+    #[arg(short = 's', long, default_value_t = 60)]
     sync_interval: u64,
 
     #[arg(short, long)]

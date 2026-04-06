@@ -12,6 +12,10 @@
 - Scans for nearby Bluetooth devices and logs their information.
 - Provides a user-friendly interface for viewing and managing scanned devices.
 
+<img src="./screenshots/cli_example.png" alt="CLI Example" width="600"/>
+
+---
+
 ## For those interested in how Rust integrates with Android, below is a brief explanation:
 
 > the goal is to create an app that works on multiple platforms (Windows, Linux, Android) and to help others who want to achieve the same.
