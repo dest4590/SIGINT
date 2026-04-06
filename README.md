@@ -4,6 +4,8 @@
 
 ## SIGINT is an Desktop/Android application for scanning and logging Bluetooth devices. It is designed for analyzing Bluetooth environments.
 
+> check my android app, you can check it [here](https://github.com/dest4590/SIGINT-Android)
+
 ### Features
 
 - Scans for nearby Bluetooth devices and logs their information.
