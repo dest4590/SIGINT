@@ -1,4 +1,5 @@
 <p align=center>
+    <img src="./icons/sigint.svg" alt="SIGINT Logo" width="100"/>
     <h1 align=center>SIGINT</h1>
 </p>
 
